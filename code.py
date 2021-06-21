@@ -55,17 +55,17 @@ mqttc.loop_start()
 
 #bus = smbus.SMBus(1)
 
-#ADDRESS = 0x4B
+ADDRESS = 0x4B
 
 #def reading1():
  #a= bus.read_byte(ADDRESS)
 # return a
 
-#while 1:
-#        input_parameter = GPIO.input(11)
-#        print(input_parameter)
-#        (result,mid) = mqttc.publish("paho/temp0108",input_parameter,2)
-#        time.sleep(2)
+while 1:
+        input_parameter = GPIO.input(11)
+        print(input_parameter)
+        (result,mid) = mqttc.publish("paho/temp0108",input_parameter,2)
+        time.sleep(2)
 
 #while 1:
 #        temp = reading1()
