@@ -22,12 +22,16 @@ MQTT:
 
 
 Components:
-
 Raspberry Pi 2
+
 L293d motor driver IC
+
 DC motors(Represents Fan)
+
 Relay
+
 Electric Bulb
+
 
 
 The python file is saved in Raspberry Pi (Using VIM editor). The MQTT (MQTT is used for data exchange between constrained devices and server applications) is used to transfer the commands to the Raspberry Pi and also to receive the sensor data continuously from device to Mobile.
