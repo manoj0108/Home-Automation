@@ -23,13 +23,9 @@ MQTT:
 
 Components:
 Raspberry Pi 2
-
 L293d motor driver IC
-
 DC motors(Represents Fan)
-
 Relay
-
 Electric Bulb
 
 
